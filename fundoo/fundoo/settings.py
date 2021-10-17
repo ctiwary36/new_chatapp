@@ -102,12 +102,12 @@ CHANNEL_LAYERS = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dbname',
-        'USER': 'user',
-        'PASSWORD': 'dsfdsfbdspfus',
-        'HOST': 'endpoint.google.com',
-        'PORT': '1234',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ORCL',
+        'USER': 'admin',
+        'PASSWORD': '8651059300',
+        'HOST': 'rdsdatabase.coznvgudmuos.us-east-2.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
 #sagar kadam
